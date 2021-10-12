@@ -1,0 +1,24 @@
+doctype html 
+hmtl(lang='en')
+html
+  head 
+    //script(type="text/javascript" src="javascripts/client.js").
+    title= title 
+  body 
+    h1.header= h1
+    div.wrapper= div
+
+    input#name-text(type="text", name="")
+    h4= "ingredients"
+    textarea#ingredients-text(name="", cols="30", rows="4")
+    br
+    button#add-ingredient(type="button")|Add ingredient 
+    h4= "instructions" 
+    textarea#instructions-text(name="", cols="30", rows="4")
+    br
+    button#add-instruction(type="button")|Add instruction 
+    button#submit(type="submit")|Submit
+
+
+    script(type="text/javascript" src="javascripts/client.js").
+    
